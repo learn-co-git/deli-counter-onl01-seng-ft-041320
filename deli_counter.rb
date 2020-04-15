@@ -1,7 +1,7 @@
 def line(katz_deli)
-	if(katz_deli.size() == 0)
+	if(katz_deli.empty?())
 		puts "The line is currently empty."
-	end
+	else 
 	str = ""
 	katz_deli.each_with_index do |ele, i|
 		number = i + 1
