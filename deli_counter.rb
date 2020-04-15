@@ -7,8 +7,8 @@ def line(katz_deli)
 		number = i + 1
 		str += number.to_s + ". "  + ele
 	end
-	end
 	puts "The line is currently: " + str
+	end
 end
 
 def take_a_number(katz_deli, name)
