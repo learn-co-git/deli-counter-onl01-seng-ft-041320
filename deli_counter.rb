@@ -9,6 +9,7 @@ def line(katz_deli)
 			str += number.to_s + ". " + ele
 		else
 		str += number.to_s + ". "  + ele + " "
+		end
 	end
 end
 	puts "The line is currently: " + str
