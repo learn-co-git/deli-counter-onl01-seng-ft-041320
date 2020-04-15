@@ -6,7 +6,7 @@ def line(katz_deli)
 	str = ""
 	katz_deli.each_with_index do |ele, i|
 		number = i + 1
-		if(i == katz_deli.length)
+		if(number == katz_deli.length)
 			str += number.to_s + ". " + ele
 		else
 		str += number.to_s + ". "  + ele + " "
